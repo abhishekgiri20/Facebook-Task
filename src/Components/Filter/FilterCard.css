@@ -1,0 +1,73 @@
+.post_item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-text h3 {
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.card-btn button {
+  font-size: 15px;
+  padding: 5px 8px;
+  width: 90px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+/* modal css */
+.modal-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding: var(--bs-modal-header-padding);
+  border-bottom: var(--bs-modal-header-border-width) solid
+    var(--bs-modal-header-border-color);
+  border-top-left-radius: var(--bs-modal-inner-border-radius);
+  border-top-right-radius: var(--bs-modal-inner-border-radius);
+}
+
+.modal-dialog #filter-modal {
+  width: 80%;
+}
+
+.modal-footer #filter-btn {
+  margin-left: 20px;
+  width: 80%;
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-title #top-text,
+#bottom-text {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+.body-title #bottom-text {
+  color: lightgray;
+}
+
+.date-container p {
+  text-align: start;
+  font-size: 17px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.date-container input {
+  width: 70%;
+  height: 40px;
+  border: none;
+  padding: 0 7px 0 40px;
+  letter-spacing: 7px;
+  border-radius: 40px;
+  background: #e0e0e0;
+  box-shadow: inset 29px 29px 58px #bcbcbc, inset -29px -29px 58px #ffffff;
+}
